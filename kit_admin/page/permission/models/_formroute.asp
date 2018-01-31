@@ -1,15 +1,15 @@
-<input type="hidden" id="updateid" value="<%=id%>">
+<input type="hidden" id="updateid" value="<%Easp.WN Easp.Var("id")%>">
 <input type="hidden" id="ids" value="">
 <div class="layui-layout-admin site-demo">
   <div class="layui-main">
       <div class="layui-form-item">
 
         <div>
-          <input id="inp-parent" name="parent" value="<%=parent%>" type="text" class="layui-input" readonly="value">
+          <input id="inp-parent" name="parent" value="<%Easp.WN Easp.Var("parent")%>" type="text" class="layui-input" readonly="value">
         </div>
       </div>
 
-    <form   action="models/model.asp?action=<%=typ%>&id=<%=id%>" method="post">
+    <form   action="models/model.asp?action=<%Easp.WN Easp.Var("typ")%>&id=<%Easp.WN Easp.Var("id")%>" method="post">
       <div class="content">
         <select multiple="multiple" id="select1" style="width:calc(50% - 25px); height:350px; float:left; border:4px rgba(0,0,0,.2) outset; border-radius: 4px; padding:4px; ">
 </select>
@@ -29,9 +29,8 @@
     </form>
   </div>
 </div>
-<script src="../../../assets/scripts/jquery.min.js" type="text/javascript"></script>
-<script src="../../../assets/layer/layer.js"></script>
-<script type="text/javascript" src="../../layui/layui.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="../../plugins/layui/layui.js"></script>
 <script>
 //下拉框交换JQuery
 $(function () {

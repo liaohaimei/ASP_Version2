@@ -2,17 +2,18 @@
 .text-right{ text-align: right!important; }
 .text-center{ text-align: center!important; }
 
+
 /*总容器样式*/ 
 .pager { padding: 3px; text-align: center; color:#66C;font-size:12px; font-family:Tahoma;}   
 /*分页链接样式*/ 
-.pager a { margin: 2px; padding:2px 5px; color: #66C; text-decoration: none; border: 1px solid #aad; }   
+.pager a { margin: 2px; padding:5px 10px; color: #66C; text-decoration: none; border: 1px solid #aad; border-radius: 4px; }   
 /*分页链接鼠标移过的样式*/ 
-.pager a:hover { color: #000; border: 1px solid #009; background-color:#DCDCF3; }   
+.pager a:hover { color: #FFF; border: 1px solid #FF5722; background-color:#FF5722; }   
 /*当前页码的样式*/ 
-.pager span.current { font-weight: bold; margin: 0 2px; padding: 2px 5px; color: #fff; background-color: #66C; border: 1px solid #009; }   
+.pager span.current { font-weight: bold; margin: 0 2px; border-radius: 4px; padding:5px 10px;; color: #fff; background-color: #FF5722; border: 1px solid #FF5722; }   
 /*不可用分页链接的样式(比如第1页时的“上一页”链接)*/ 
-.pager span.disabled { margin: 0 2px; padding: 2px 5px; color: #CCC; border: 1px solid #DDD; }   
+.pager span.disabled { margin: 0 2px; padding: 5px 10px; color: #CCC; border: 1px solid #DDD; border-radius: 4px; }   
 /*跳转下拉菜单的样式*/ 
-.pager select {margin: 0px 2px -2px 2px; color:#66C;font-size:12px; font-family:Tahoma;}   
+.pager select {margin: 0px 2px -2px 2px; padding: 5px 10px; color:#66C;font-size:12px; font-family:Tahoma; border-radius: 4px;}   
 /*跳转文本框的样式*/ 
-.pager input {margin: 0px 2px -2px 2px; color:#66C; border: 1px solid #DDD; padding:2px; text-align:center;font-size:12px; font-family:Tahoma;}  
+.pager input {margin: 0px 2px -2px 2px; padding: 5px 10px; border-radius: 4px; color:#66C; border: 1px solid #DDD; padding:2px; text-align:center;font-size:12px; font-family:Tahoma;}  
